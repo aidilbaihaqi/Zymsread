@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Zymsread Apps - Setting</title>
+</head>
+<body>
+  <section>
+    <div class="hero-profile">
+      <img src="img/Group 34.svg">
+    </div>
+    <img class="checkBtn" src="img/checkBtn.svg" >
+    <div class="navbar">
+      <img class="rectangle32" src="img/Rectangle 32.svg">
+      <img src="img/profile 1.svg" class="profile-setting">
+      <a href="section1.html"><img src="img/wht-home.svg" class="homeBtn"></a>
+      <a href="section1.html"><img src="img/wht-bookmark.svg" class="bookmarkBtn"></a>
+      <a href="calender.html"><img src="img/wht-calender.svg" class="calenderBtn"></a>
+      <a href="setting-profile.html"><img src="img/blk-user.svg" class="userBtn"></a>
+      <a href="setting-fav.html"><img src="img/wht-heart.svg" class="heartBtn"></a>
+      <a href="setting-lang.html"><img src="img/wht-globe.svg" class="globeBtn"></a>
+      <img src="img/href-span.svg" class="href-span-profile">
+      <img src="img/signout.svg" class="signout" onclick="togglePopup()">
+    </div>
+    <div class="setting-container">
+      <h1>Profile</h1>
+      <table class="container-profile">
+        <tr>
+          <th>Name</th>
+          <td>Aidil Baihaqi</td>
+        </tr>
+        <tr>
+          <th>Phone number</th>
+          <td>+6289686638807</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>aidilmusirjun@gmail.com</td>
+        </tr>
+        <tr>
+          <th>Password</th>
+          <td>*********</td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td>Kp Jati 3 No 6</td>
+        </tr>
+        <tr>
+          <th>Born date</th>
+          <td>Nov 21, 2004</td>
+        </tr>
+        <tr>
+          <th>Gender</th>
+          <td>Man</td>
+        </tr>
+        <tr>
+          <th>Country</th>
+          <td>Indonesia</td>
+        </tr>
+        <tr>
+          <th>Currency</th>
+          <td>Rupiah</td>
+        </tr>
+        <tr>
+          <th>Notification</th>
+          <td>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="popup" id="popup-1">
+      <div class="overlay"></div>
+      <div class="content">
+        <img src="img/cross-circle.svg" onclick="togglePopup()" class="close-btn">
+        <img src="img/okay.gif" class="okayGif">
+        <h1>Thank You</h1>
+        <p>thank you for using this application, your rate and feedback is very valuable to us</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Javascript -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
